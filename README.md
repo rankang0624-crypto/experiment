@@ -1,10 +1,10 @@
 ### 实验一：计算机视觉库的安装
 
-一、实验目的
+### 一、实验目的
 
 掌握 Anaconda 的安装与基本操作，熟悉 GPU 使用环境的配置及对应版本 PyTorch 的安
 装，并完成 OpenCV 的安装与配置
-二、实验内容
+### 二、实验内容
 1、Anaconda的安装及配置
 较为简单，不再进行阐述。演示如下：<img width="1483" height="741" alt="289fc189358cf3531d394a4a39b3b04d" src="https://github.com/user-attachments/assets/19bfa0a3-37d2-4375-be5b-1d4ce272a949" />
 
