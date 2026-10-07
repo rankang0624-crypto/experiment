@@ -28,7 +28,17 @@
 torch.cuda.is_available() 、 torch.backends.cudnn.is_available() 结果进行验证，
 信息如下：
 验证通过！
-### 三、实验小结
+### 三、实验结果分析
+
+本次实验完成了计算机视觉实验环境的基本搭建。首先，通过 Anaconda 创建并配置了独立的 Python 虚拟环境，能够正常进入相应环境并进行后续软件安装。随后，在虚拟环境中成功安装 OpenCV，满足后续计算机视觉实验对图像处理库的使用需求。
+
+在 GPU 加速环境配置方面，通过 `nvidia-smi` 对显卡状态进行了查看，并根据对应版本完成 CUDA 和 cuDNN 的配置。之后结合 CUDA 版本安装 PyTorch，并通过 `conda list pytorch` 检查 PyTorch 的安装情况，结果表明 PyTorch 已成功安装。
+
+最后，通过 `torch.cuda.is_available()` 和 `torch.backends.cudnn.is_available()` 对 PyTorch 的 GPU 加速环境进行了验证，验证结果通过，说明当前计算机已经具备使用 GPU 进行深度学习计算的基本条件。
+
+综合实验结果来看，本次实验各项环境配置基本正常，Anaconda、OpenCV、CUDA、cuDNN 和 PyTorch 均能够满足后续计算机视觉实验的使用要求，为后续开展图像处理、深度学习模型训练等实验提供了必要的软件和硬件环境支持。
+
+### 四、实验小结
 
 通过本次实验，我初步掌握了计算机视觉实验环境的搭建方法，进一步熟悉了 Anaconda 及 conda 虚拟环境的基本操作，并完成了 OpenCV、CUDA、cuDNN 和 PyTorch 等相关工具与环境的配置。实验过程中，通过创建独立的 Python 虚拟环境，可以有效管理不同实验所需的软件版本，为后续计算机视觉实验提供了更加稳定、规范的运行环境。
 
