@@ -22,9 +22,9 @@
 4、PyTorch安装
 1. 结合CUDA版本至PyTorch官网选择对应版本进行下载，页面如下：<img width="1772" height="685" alt="866e16af7c1e54e97c03e9f8a6ce9158" src="https://github.com/user-attachments/assets/05780a78-feee-4e21-b640-e2d60f895cfa" />
 
-2.  conda list pytorch 可以看到已经成功安装，信息如下：
-5、PyTorch GPU加速环境验证<img width="1184" height="550" alt="b89652f89811019342e2bafbd44755b7" src="https://github.com/user-attachments/assets/f561a985-e030-4136-9f99-e0c724b45d83" />
+2.  conda list pytorch 可以看到已经成功安装，信息如下：<img width="1184" height="550" alt="b89652f89811019342e2bafbd44755b7" src="https://github.com/user-attachments/assets/3eedfe89-eff2-46a2-83cc-78df3c9367a3" />
 
+5、PyTorch GPU加速环境验证
 torch.cuda.is_available() 、 torch.backends.cudnn.is_available() 结果进行验证，
 信息如下：
 验证通过！
